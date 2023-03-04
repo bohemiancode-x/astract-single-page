@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;800;900&display=swap');
+
+@layer components {
+  .filter-item {
+    @apply flex items-center gap-16 md:gap-20 lg:gap-28 text-xs md:text-sm rounded bg-[#131726] border-[1px] border-[#393c4a] justify-between p-2
+  }
+  .geopolitical {
+    @apply flex items-center gap-1 text-xs
+  }
+}
+
