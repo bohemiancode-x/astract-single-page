@@ -2,6 +2,7 @@ import './App.css';
 import FilterBar from './components/FilterBar';
 import Map from './components/Map';
 import Statistics from './components/Statistics';
+import MapComponent from './components/MapComponent';
 
 function App() {
   return (

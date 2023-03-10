@@ -9,7 +9,10 @@ module.exports = {
         jost: ['Jost']
       },
       colors: {
-        bgColor: '#1f2335'
+        bgColor: '#1f2335',
+        PeterObi: '#0aa83f',
+        Tinubu: '#64ccff',
+        Atiku: '#d62b3c'
       }
     },
   },

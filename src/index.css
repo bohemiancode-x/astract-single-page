@@ -11,5 +11,14 @@
   .geopolitical {
     @apply flex items-center gap-1 text-xs
   }
+  .tooltip {
+    @apply  after:content-[""] after:absolute after:md:top-[-30%] after:top-[-12%] after:left-[50%] after:mt-[5px] after:border-[7px] after:rounded-tr-full after:border-l-white after:border-t-transparent after:border-b-white after:border-r-transparent
+  }
+  .card {
+    @apply tooltip absolute flex flex-col md:flex-row gap-1 px-2 py-1 bg-white md:w-[13em] top-7 right-[50%]
+  }
+  .cell {
+    @apply border-b-[1px] border-r-[1px] border-[#d3d3d3]/[30%] p-1
+  }
 }
 
