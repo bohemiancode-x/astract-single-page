@@ -30,7 +30,7 @@ const FilterBar = () => {
 
   return (
     <div className='w-full flex flex-col-reverse px-5 mt-3'>
-        <div className='w-full h-[20vh] my-2'>
+        <div className='w-full h-[26vh] md:h-[20vh] my-2'>
             <h2 className='font-medium'>PRESIDENT</h2>
             <div className='py-3'>
                 {!isPending && data && 
